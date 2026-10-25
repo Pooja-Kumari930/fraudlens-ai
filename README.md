@@ -1,3 +1,9 @@
+> **Data not included.** This repository does not contain the dataset. Download the
+> Mendeley "Final 12 Files" package from its original source, put all its CSV files in
+> `data/mendeley/`, then run `setup.bat`. The data combines samples from PaySim,
+> IEEE-CIS and ULB; check each source's license before redistributing it.
+> PaySim is simulated data, not real UPI transactions.
+
 # FraudLens AI - Digital Payment Fraud Detection (Mendeley dataset edition)
 *Detect patterns. Assess risk. Protect transactions.*
 
