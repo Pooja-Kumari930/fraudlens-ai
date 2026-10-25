@@ -1,0 +1,21 @@
+# Screenshots checklist
+Auto-captured (docs/screenshots/, regenerate with `python tests/ui_check.py`); retake them on your laptop for the final report.
+- [ ] 01 Overview (KPIs + charts)
+- [ ] 02 Transaction explorer with a filter applied
+- [ ] 03 Empty state (no matching search)
+- [ ] 04 Fraud detection: high-risk result with influence bars
+- [ ] 04b Fraud detection: low-risk result (click "Real legitimate")
+- [ ] 04c Validation error message (type a negative amount or hour 30)
+- [ ] 05 Analytics (6 charts)
+- [ ] 06 Model performance (table, confusion matrix, per-source and real-rate tables)
+- [ ] 07 Reports page + the downloaded CSV opened in Excel
+- [ ] 08 Dataset and model page (balanced-sample caveats)
+- [ ] 09 Mobile layout
+- [ ] Notebook: each of the 7 plots
+- [ ] Terminal: `python -m backend.train` output
+- [ ] Browser: `http://localhost:8000/docs` (Swagger API page)
+- [ ] Terminal: `python tests/api_check.py` all passing (50 checks)
+- [ ] 10 AI Explainability: selected transaction, risk summary, contribution chart
+- [ ] 11 Chatbot answering a suggested question
+- [ ] 12 AI Explainability on a phone-width screen
+- [ ] A false-alarm example (group: Flagged but actually legitimate)

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FraudLens AI - Payment fraud detection</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='14' cy='14' r='9' fill='none' stroke='%232F5BEA' stroke-width='4'/><path d='M21 21l8 8' stroke='%232F5BEA' stroke-width='4' stroke-linecap='round'/></svg>">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<a class="skip" href="#view">Skip to content</a>
+<div class="shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><circle cx="14" cy="14" r="9" fill="none" stroke="#8FA8FF" stroke-width="3.5"/><path d="M21 21l8 8" stroke="#8FA8FF" stroke-width="3.5" stroke-linecap="round"/><path d="M9 15l3 3 6-7" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div><strong>FraudLens AI</strong><span>Detect patterns. Assess risk. Protect transactions.</span></div>
+    </div>
+    <nav id="nav" aria-label="Main">
+      <a href="#/overview" data-route="overview">Overview</a>
+      <a href="#/transactions" data-route="transactions">Transaction explorer</a>
+      <a href="#/detect" data-route="detect">Fraud detection</a>
+      <a href="#/analytics" data-route="analytics">Analytics</a>
+      <a href="#/performance" data-route="performance">Model performance</a>
+      <a href="#/explain" data-route="explain">AI Explainability</a>
+      <a href="#/reports" data-route="reports">Reports</a>
+      <a href="#/dataset" data-route="dataset">Dataset and model</a>
+    </nav>
+    <div class="side-foot" id="side-foot">Checking backend...</div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <button class="menu" id="menu" aria-label="Toggle navigation">Menu</button>
+      <h1 id="page-title">Overview</h1>
+      <span class="chip" id="data-chip"></span>
+    </header>
+    <main id="view" tabindex="-1"></main>
+  </div>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="/static/vendor/chart.umd.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>
